@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: #e6fafc;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: cascadiaCode;
+  src: url(fonts/CascadiaCode-Regular.otf);
+}
+nav {
+  margin: 0px 0px 25px 0px;
+  width: 100%;
+  height: 100px;
+  background-color: #98c1d9;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #9067c6;
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  margin-left: 80px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 1280px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.homeHeader {
+  font-family: cascadiaCode;
+  font-size: 50px;
+}
+
+.underline {
+  margin-top: 10px;
+  height: 10px;
+  width: 430px;
+  background-color: #db222a;
+  /* border-radius: 50px; */
+}
+
+.homeTextHolder {
+  width: 602px;
+  height: 300px;
+  /* background: red; */
+}
+.homePicHolder {
+  background-image: url(../images/Portfolio\ Hero.png);
+  width: 602px;
+  height: 300px;
+  background-color: green;
+}
+
+#homeText {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10px;
+  width: 577px;
+}
+#aboutText {
+  font-size: 31.5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10px;
+  width: 577px;
+}
+.aboutPicHolder {
+  width: 602px;
+  height: 300px;
+}
+
+#aboutMePic {
+height: 600px;
+}
+
+.madeThis {
+  height: 50px;
+  width: 600px;
+  background-color: #db222a;
+  margin-left: 350px;
+  margin-top: 150px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: #e6fafc;
+}
+
+.threeCircles {
+  margin-top: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 25px;
+
+}
+.circlePics {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.designDevelopment {
+  width: 1205px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 35px;
+  font-family: cascadiaCode;
+  /* background-color: green; */
+}
+
+.designDevelopmentHeader {
+  width: 550px;
+  height: 50px;
+  border-radius: 50px;
+  background: #dd222b;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+div a {
+  text-decoration: none;
+  color: white;
+}
+
+#designHeader {
+  background-color: #98c1da;
+  color: black;
+}
+
+#devTitle {
+  color: black;
+  font-size: 35px;
+  font-family: cascadiaCode;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+#devLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 450px;
+}
+
+.projectTitles {
+  width: 600px;
+  margin-top: 25px;
+  color: black;
+  font-family: cascadiaCode;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* below is to size project vids */
+.mainProjectVid {
+  margin-top: 25px;
+  width: 600px;
+  height: 337.5px;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.projectDesc {
+  margin-top: 25px;
+  width: 600px;
+  height: 337.5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.projectLine {
+  margin-top: 25px;
+  height: 25px;
+  width: 1280px;
+  background-color: #dd222b;
+  border-radius: 50px;
+}
+
+.rightProjectTitle {
+  width: 600px;
+  margin-top: 25px;
+  margin-left: 680px;
+  color: black;
+  font-family: cascadiaCode;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#designTitle {
+  color: black;
+  font-size: 35px;
+  font-family: cascadiaCode;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+#designLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 450px;
+  background-color: #98c1da;
+}
+
+.projectLineBlue {
+  margin-top: 25px;
+  height: 25px;
+  width: 1280px;
+  background-color: #98c1da;
+  border-radius: 50px;
+}
+
+.contactHeader {
+  width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 80px;
+}
+
+.contactLine {
+  height: 10px;
+  width: 640px;
+  background-color: #db222b;
+  margin-left: 330px;
+}
+.contactCirlces {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.email {
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: cascadiaCode;
+  margin-top: 80px;
+}
+
+.contactPictureHolder {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#classes {
+  height: 337.5px;
+}
+#designChart {
+  height: 337.5px;
+}
+
+#characterDesign {
+  height: 337.5px;
+}
+
+#eyes {
+  width: 600px;
+  margin-bottom: 90px; 
+}
+
+#dogsSmile {
+  background-image: url(../images/Dogs\ Smile.jpg);
+  background-size: cover;
+  background-position: 3px;
+}
+
+#skateboarding {
+  background-image: url(../images/skateboarding.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -80px; 
+}
+
+#football {
+  background-image:url(../images/football.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#youtube {
+  background-image: url(../images/yt\ logo.png);
+  background-size:200px;
+}
+
+#stackOverflow {
+  background-image: url(../images/stack\ Overflow.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#linkedIn {
+  background-image: url(../images/linkedIn.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
